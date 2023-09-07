@@ -4,5 +4,10 @@ body {
 }
 
 .topnav {
+   border: 3px solid red;
+   display: flex;
+   justify-content: space-between;
+   list-style-type: none;
    
 }
+
