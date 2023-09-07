@@ -1,13 +1,19 @@
 body {
     display: flex;
     flex-direction:column;
+    background-color: (to right, rgb(234, 203, 225), rgb(49, 188, 252));
 }
 
 .topnav {
-   border: 3px solid red;
    display: flex;
    justify-content: space-between;
    list-style-type: none;
-   
 }
 
+.right {
+    margin-left:auto;
+}
+
+li {
+    padding: 10px;
+}
